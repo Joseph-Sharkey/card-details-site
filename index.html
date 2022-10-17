@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Card Input Form</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="cards">
+		<div class="cardFront">
+			<h1 class="displayedCardNumber">0000 0000 0000 0000</h1>
+			<h2 class="displayedName">----</h2>
+			<h2 class="displayedDate">00/00</h2>
+		</div>
+		<div class="cardBack">
+			<div class="blackBar"></div>
+			<h1 class="displayedCVC"><p>000</p></h1>
+		</div>
+	</div>
+	<form>
+		<div class="inputDiv nameDiv">
+			<label>
+				Cardholder Name
+				<input type="text" name="name" class="nameInput">
+			</label>
+		</div>
+		<div class="inputDiv CardNumberDiv">
+			<label>
+				Card Number
+				<input type="text" name="cardNumber" class="cardNumberInput">
+			</label>
+		</div>
+		<div class="inputDiv numberDetails">
+			<label>
+				Exp.date (MM/YY)
+				<input type="text" class="month">
+				<input type="text" class="year">
+			</label>
+			<label>
+				CVC
+				<input type="text" class="CVC">
+			</label>
+		</div>
+		<div>
+			<input type="submit" value="confirm" class="confirmButton">
+		</div>
+	</form>
+	
+</body>
+</html>

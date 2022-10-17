@@ -1,0 +1,98 @@
+.cards {
+	position: absolute;
+	width: 40%;
+	height: 50vh;
+	margin: 15% 0% 20% 5%
+}
+.cardFront {
+	position: absolute;
+	border: 2px solid black;
+	height: 180px;
+	width: 300px;
+	top: 2vh;
+	border-radius: 10px;
+	text-align: center;
+	background-color: lightblue
+}
+
+.displayedCardNumber {
+	font-size: 25px;
+	margin-top: 10;
+	margin-top: 30%;
+	margin-bottom: 10px;
+}
+
+.displayedName { 
+	float: left;
+	width: 40%;
+	font-size: 15px;
+}
+
+.displayedDate {
+	float: right;
+	width: 40%;
+	font-size: 15px;
+}
+
+.cardBack {
+	border: 2px solid black;
+	height: 180px;
+	position: absolute;
+	bottom: 2vh;
+	width: 300px;
+	right: 0px;
+	border-radius: 10px;
+	text-align: right;
+	z-index: -1;
+	background-color: lightsalmon;
+}
+
+.blackBar {
+	border: 2px solid black;
+	margin-top: 10px;
+	height: 30px;
+	background-color: black;
+}
+.displayedCVC {
+	position: absolute;
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	width: 80%;
+	top: 50px;
+	height: 20px;
+	margin-left: 30px;
+	background-color: lightgrey;
+	font-size: 15px;
+}
+.displayedCVC > p {
+	margin: 2px 0 0 0 
+}
+
+/*width to height ratio of credit card is 1.5881:1*/
+form {
+	position: absolute;
+	right: 10%;
+	width: 30%;
+	margin: 15% 0% 20% 5%;
+	height: 50vh;
+}
+.inputDiv {
+	margin: 15% 0 15% 0;
+	width: 90%;
+}
+
+
+
+input {
+	display: block;
+	width: 100%;
+}
+
+
+
+input[type="submit"] {
+	width: 90%;
+	border: 2px solid hsl(278, 68%, 11%);
+	background-color: hsl(278, 68%, 11%);
+	color: white;
+}
