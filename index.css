@@ -1,3 +1,23 @@
+body {
+	font-family: "Space Grotesk", serif;
+}
+.background-colours {
+	position: absolute;
+	z-index: -3;
+	width: 100%;
+	height: 100%;
+}
+.gradientBackground {
+	background-image: url(../interactive-card-details-form-main/images/bg-main-desktop.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 35%;
+	height: 100%;
+}
+.whiteBackground {
+	background-color: white;
+}
+
 .cards {
 	position: absolute;
 	width: 40%;
@@ -6,17 +26,20 @@
 }
 .cardFront {
 	position: absolute;
-	border: 2px solid black;
 	height: 180px;
 	width: 300px;
 	top: 2vh;
 	border-radius: 10px;
 	text-align: center;
-	background-color: lightblue
+	color: white;
+	font-weight: lighter;
+	background-image: url(../interactive-card-details-form-main/images/bg-card-front.png)
 }
 
+
+
 .displayedCardNumber {
-	font-size: 25px;
+	font-size: 21px;
 	margin-top: 10;
 	margin-top: 30%;
 	margin-bottom: 10px;
@@ -35,7 +58,6 @@
 }
 
 .cardBack {
-	border: 2px solid black;
 	height: 180px;
 	position: absolute;
 	bottom: 2vh;
@@ -44,7 +66,7 @@
 	border-radius: 10px;
 	text-align: right;
 	z-index: -1;
-	background-color: lightsalmon;
+	background-image: linear-gradient(to bottom right, white, lightgray)
 }
 
 .blackBar {
@@ -62,7 +84,9 @@
 	height: 20px;
 	margin-left: 30px;
 	background-color: lightgrey;
-	font-size: 15px;
+	font-size: 10px;
+	letter-spacing: 3px;
+	color: white;
 }
 .displayedCVC > p {
 	margin: 2px 0 0 0 
