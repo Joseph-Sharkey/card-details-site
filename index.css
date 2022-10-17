@@ -73,7 +73,7 @@ form {
 	position: absolute;
 	right: 10%;
 	width: 30%;
-	margin: 15% 0% 20% 5%;
+	margin: 10% 0% 20% 5%;
 	height: 50vh;
 }
 .inputDiv {
@@ -81,18 +81,41 @@ form {
 	width: 90%;
 }
 
-
-
-input {
+input[type="text"] {
 	display: block;
 	width: 100%;
+	border-radius: 5px;
+	height: 35px;
 }
-
-
 
 input[type="submit"] {
 	width: 90%;
 	border: 2px solid hsl(278, 68%, 11%);
 	background-color: hsl(278, 68%, 11%);
 	color: white;
+	border-radius: 10px;
+	height: 45px;
+	margin-top: 20%;
+}
+
+
+.dateDiv {
+	width: 60%;
+	float: left;
+}
+
+.dateDiv div {
+	width: 45%;
+}
+
+.monthDiv {
+	float: left;
+}
+
+.yearDiv {
+	float: right;
+}
+.CVCDiv {
+	width: 30%;
+	float: right;
 }
