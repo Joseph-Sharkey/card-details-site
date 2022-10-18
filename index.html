@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Card Input Form</title>
 	<link rel="stylesheet" href="index.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk"
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk">
 </head>
 <body>
 	<div class="cards">
@@ -24,13 +24,13 @@
 		<div class="inputDiv nameDiv">
 			<label>
 				Cardholder Name
-				<input type="text" name="name" class="nameInput">
+				<input type="text" name="name" class="nameInput" placeholder="eg: John Doe">
 			</label>
 		</div>
 		<div class="inputDiv CardNumberDiv">
 			<label>
 				Card Number
-				<input type="text" name="cardNumber" class="cardNumberInput">
+				<input type="text" name="cardNumber" class="cardNumberInput" placeholder="eg: 1234 5678 9123 4567">
 			</label>
 		</div>
 		<div class="inputDiv numberDetails">
@@ -38,17 +38,17 @@
 				<label>
 					Exp.date (MM/YY)
 					<div class="monthDiv">
-						<input type="text" class="month">
+						<input type="text" class="month" placeholder="MM">
 					</div>
 					<div class="yearDiv">
-						<input type="text" class="year">
+						<input type="text" class="year" placeholder="YY">
 					</div>
 				</label>
 			</div>
 			<div class="CVCDiv">
 				<label >
 					CVC
-					<input type="text" class="CVC">
+					<input type="text" class="CVC" placeholder="eg: 123">
 				</label>
 			</div>
 		</div>
@@ -60,6 +60,6 @@
 		<div class="gradientBackground"></div>
 		<div class="whiteBackground"></div>
 	</div>
-	
+	<script src="index.js"></script>
 </body>
 </html>
